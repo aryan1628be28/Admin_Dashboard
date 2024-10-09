@@ -1,0 +1,134 @@
+/* Modified style.css */
+body {
+    color:lightblue
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3e3e3; /* Light gray background */
+}
+
+.container {
+    max-width: 900px; /* Increased width */
+    margin: 50px auto; /* Adjusted margin for more space */
+    padding: 25px;
+    background-color: #ffffff; /* White background for contrast */
+    border-radius: 10px; /* Added rounded corners */
+    border: 2px solid #cccccc; /* Slightly darker border */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); /* Increased shadow for depth */
+}
+
+.header {
+    background-color: #2b3e50; /* Darker blue-gray background */
+    color: #f1f1f1; /* Light font color */
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px 10px 0 0; /* Rounded top corners */
+}
+
+.login-form {
+    padding: 25px;
+}
+
+.login-form h2 {
+    margin-top: 0;
+    color: #4a4a4a; /* Dark gray headings */
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 12px;
+    font-weight: bold;
+    color: #333333; /* Darker label color */
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 25px;
+    border: 2px solid #b3b3b3; /* Darker border */
+    border-radius: 6px; /* Rounded input fields */
+}
+
+.login-form input[type="button"] {
+    background-color: #5a6b8c; /* Dark blue-gray button */
+    color: #ffffff;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login-form input[type="button"]:hover {
+    background-color: #4a5a72; /* Darker hover state */
+}
+
+.admin-dashboard,
+.employee-dashboard {
+    display: none;
+    padding: 25px;
+}
+
+.admin-dashboard h2,
+.employee-dashboard h2 {
+    margin-top: 0;
+    color: #4a4a4a;
+}
+
+.employee-list,
+.task-list {
+    margin-bottom: 25px;
+}
+
+#employees {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 25px;
+    border: 2px solid #b3b3b3;
+    border-radius: 6px;
+}
+
+#tasks,
+#employee-ttasks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#tasks li,
+#employee-tasks li {
+    padding: 12px;
+    border-bottom: 2px solid #cccccc; /* Thicker border between tasks */
+}
+
+#task-input {
+    width: calc(100% - 130px); /* Adjusted for task button */
+    padding: 12px;
+}
+
+#add-task {
+    padding: 12px;
+    background-color: #4a8b64; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#add-task:hover {
+    background-color: #3e7455; /* Darker green hover state */
+}
+
+#mark-complete {
+    margin-top: 12px;
+    background-color: #1b874c; /* Strong green */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#mark-complete:hover {
+    background-color: #146638; /* Darker green hover */
+}
